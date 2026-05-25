@@ -1,0 +1,30 @@
+name: pjbl_yallah
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  supabase_flutter: ^2.3.0
+  flutter_facebook_auth: ^6.0.0
+  shared_preferences: ^2.2.2
+  audioplayers: ^4.1.0
+  image_picker: ^1.0.4
+  google_sign_in: ^6.2.1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/audio/
